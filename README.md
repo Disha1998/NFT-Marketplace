@@ -1,4 +1,30 @@
-# NFT Marketplace
+# NFT Marketplace -- from Eattheblocks
+
+## What I need to do when I want to deploy this NFT_Marketplace
+
+
+### <---------Hardhat compile and deployement ----->
+
+### Installation -- npm install --save-dev hardhat
+
+### First start after installation -- npx hardhat node (It will diaplay the list of account-Compulsury)
+
+ ### for testing the smartcontract --- npx hardhat test 
+
+### for deplyoy the contract(open in new tab of terminal)  ---- npx hardhat run --network <your-network> scripts/deploy.js
+
+### for fetch the data from deployed contract --- npx hardhat console
+
+### You can deploy in the "localhost" network following these steps:
+### Start a local node.--->   npx hardhat node.
+### Open a new terminal and deploy the smart contract in the localhost network. ---> npx hardhat run --network localhost scripts/deploy.js.
+
+### My NFTMarketplace deployment ---npx hardhat run --network localhost src/backend/scripts/deploy.js 
+
+
+
+
+
 
 ## Technology Stack & Tools
 
